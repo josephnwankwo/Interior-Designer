@@ -16,12 +16,41 @@
     justify-content: space-between;
     align-items: center;
     padding: 2.4rem 1.2rem;
+    list-style: none;
+    font-family: "LeHavreRounded" serif;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #777;
+  }
+
+  .nav-link:hover,
+  .nav-link:active {
+    color: #222;
   }
 
   .contact {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-	text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 1.2rem;
+  }
+
+  .contact-link:link,
+  .contact-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #777;
+  }
+
+  .contact-link:hover,
+  .contact-link:active {
+    color: #222;
   }
 }
